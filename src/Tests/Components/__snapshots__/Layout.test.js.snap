@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render 1`] = `
+<header
+  className="header"
+>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="navbar-header"
+      >
+        <a
+          className="navbar-brand"
+          href="/"
+          onClick={[Function]}
+        >
+          Company Name
+        </a>
+        <button
+          className="navbar-toggle collapsed"
+          id="js-navbar-toggle-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Toggle navigation
+          </span>
+          <span
+            className="icon-bar"
+          />
+          <span
+            className="icon-bar"
+          />
+          <span
+            className="icon-bar"
+          />
+        </button>
+      </div>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+      >
+        <ul
+          className="navbar-nav nav navbar-right"
+        >
+          <li
+            className=""
+          >
+            <a
+              href="/dashboard"
+              onClick={[Function]}
+            >
+              Dashboard
+               
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              href="/projects"
+              onClick={[Function]}
+            >
+              Projects
+               
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              href="/team"
+              onClick={[Function]}
+            >
+              Team
+               
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              href="/company"
+              onClick={[Function]}
+            >
+              Company
+               
+            </a>
+          </li>
+          <li
+            className="account-menu dropdown"
+            style={undefined}
+          >
+            <a
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="dropdown-toggle"
+              href="#"
+              id="js-account-menu"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Account
+               
+              <span
+                className="caret"
+              />
+            </a>
+            <ul
+              aria-labelledby="js-account-menu"
+              className="dropdown-menu"
+              role="menu"
+            >
+              <li
+                className=""
+              >
+                <a
+                  href="/account/my-profile"
+                  onClick={[Function]}
+                >
+                  My Profile
+                   
+                </a>
+              </li>
+              <li
+                className=""
+              >
+                <a
+                  href="/account/my-projects"
+                  onClick={[Function]}
+                >
+                  My Projects
+                   
+                  <span
+                    className="notification-badge"
+                  >
+                    1
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+              >
+                <a
+                  href="/account/notifications"
+                  onClick={[Function]}
+                >
+                  Notifications
+                   
+                  <span
+                    className="notification-badge"
+                  >
+                    10
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+              >
+                <a
+                  href="/account/tasks"
+                  onClick={[Function]}
+                >
+                  Tasks
+                   
+                  <span
+                    className="notification-badge"
+                  >
+                    99+
+                  </span>
+                </a>
+              </li>
+              <li
+                className=""
+              >
+                <a
+                  href="/help"
+                  onClick={[Function]}
+                >
+                  Help
+                   
+                </a>
+              </li>
+              <li>
+                <button
+                  className="sign-out-btn"
+                >
+                  Sign Out
+                </button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`Layout.Basic component should render 1`] = `
+<div
+  className="layout"
+>
+  <header
+    className="header"
+  >
+    <nav
+      className="navbar navbar-default"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="navbar-header"
+        >
+          <a
+            className="navbar-brand"
+            href="/"
+            onClick={[Function]}
+          >
+            Company Name
+          </a>
+          <button
+            className="navbar-toggle collapsed"
+            id="js-navbar-toggle-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              className="sr-only"
+            >
+              Toggle navigation
+            </span>
+            <span
+              className="icon-bar"
+            />
+            <span
+              className="icon-bar"
+            />
+            <span
+              className="icon-bar"
+            />
+          </button>
+        </div>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+        >
+          <ul
+            className="navbar-nav nav navbar-right"
+          >
+            <li
+              className=""
+            >
+              <a
+                href="/dashboard"
+                onClick={[Function]}
+              >
+                Dashboard
+                 
+              </a>
+            </li>
+            <li
+              className=""
+            >
+              <a
+                href="/projects"
+                onClick={[Function]}
+              >
+                Projects
+                 
+              </a>
+            </li>
+            <li
+              className=""
+            >
+              <a
+                href="/team"
+                onClick={[Function]}
+              >
+                Team
+                 
+              </a>
+            </li>
+            <li
+              className=""
+            >
+              <a
+                href="/company"
+                onClick={[Function]}
+              >
+                Company
+                 
+              </a>
+            </li>
+            <li
+              className="account-menu dropdown"
+              style={undefined}
+            >
+              <a
+                aria-expanded={false}
+                aria-haspopup={true}
+                className="dropdown-toggle"
+                href="#"
+                id="js-account-menu"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+              >
+                Account
+                 
+                <span
+                  className="caret"
+                />
+              </a>
+              <ul
+                aria-labelledby="js-account-menu"
+                className="dropdown-menu"
+                role="menu"
+              >
+                <li
+                  className=""
+                >
+                  <a
+                    href="/account/my-profile"
+                    onClick={[Function]}
+                  >
+                    My Profile
+                     
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/account/my-projects"
+                    onClick={[Function]}
+                  >
+                    My Projects
+                     
+                    <span
+                      className="notification-badge"
+                    >
+                      1
+                    </span>
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/account/notifications"
+                    onClick={[Function]}
+                  >
+                    Notifications
+                     
+                    <span
+                      className="notification-badge"
+                    >
+                      10
+                    </span>
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/account/tasks"
+                    onClick={[Function]}
+                  >
+                    Tasks
+                     
+                    <span
+                      className="notification-badge"
+                    >
+                      99+
+                    </span>
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/help"
+                    onClick={[Function]}
+                  >
+                    Help
+                     
+                  </a>
+                </li>
+                <li>
+                  <button
+                    className="sign-out-btn"
+                  >
+                    Sign Out
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main
+    className="container"
+  >
+    <p>
+      Test
+    </p>
+  </main>
+</div>
+`;

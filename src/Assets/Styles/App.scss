@@ -1,0 +1,12 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  height: 100%;
+  font-family: 'Roboto', Helvetica, Arial, Tahoma, sans;
+  padding: 10px;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}

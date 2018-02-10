@@ -1,0 +1,42 @@
+{
+  "name": "react-app-with-custom-bootstrap-navbar",
+  "version": "0.0.0",
+  "description": "React App with Custom Bootstrap Navbar",
+  "author": "Ricky Hurtado",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickyhurtado/react-app-with-custom-bootstrap-navbar"
+  },
+  "bugs": {
+    "url": "https://github.com/rickyhurtado/react-app-with-custom-bootstrap-navbar/issues"
+  },
+  "homepage": "https://github.com/rickyhurtado/react-app-with-custom-bootstrap-navbar/tree/master",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-jsonschema-form": "^1.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0"
+  },
+  "devDependencies": {
+    "bootstrap": "3.3.7",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "node-sass": "^4.7.2",
+    "node-sass-chokidar": "^0.0.3",
+    "react-test-renderer": "^16.2.0",
+    "rebuild-node-sass": "^1.1.0"
+  },
+  "scripts": {
+    "rebuild-node-sass": "rebuild-node-sass",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "PORT=7771 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

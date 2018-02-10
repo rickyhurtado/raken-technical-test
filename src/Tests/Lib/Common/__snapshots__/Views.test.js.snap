@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLink component should render with "active" class 1`] = `
+<li
+  className="active"
+>
+  <a
+    href="/current-page"
+    onClick={[Function]}
+  >
+    Current Page
+     
+  </a>
+</li>
+`;
+
+exports[`NavLink component should render with notification badge 1`] = `
+<li
+  className="active"
+>
+  <a
+    href="/current-page"
+    onClick={[Function]}
+  >
+    Current Page
+     
+    <span
+      className="notification-badge"
+    >
+      7
+    </span>
+  </a>
+</li>
+`;
+
+exports[`NavLink component should render without "active" class and notification badge 1`] = `
+<li
+  className=""
+>
+  <a
+    href="/test-page"
+    onClick={[Function]}
+  >
+    Test Page
+     
+  </a>
+</li>
+`;
+
+exports[`PageTitle component should render 1`] = `
+<h1
+  className="page-title"
+>
+  Page Title
+</h1>
+`;
+
+exports[`PageTitle component should render with customTitle prop 1`] = `
+<h1
+  className="page-title"
+>
+  Page Title
+</h1>
+`;
+
+exports[`PageTitle component should render with parent page title 1`] = `
+<h1
+  className="page-title"
+>
+  Page Title
+</h1>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.SignOut component should render 1`] = `
+<li>
+  <button
+    className="sign-out-btn"
+  >
+    Sign Out
+  </button>
+</li>
+`;
