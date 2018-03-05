@@ -1,5 +1,7 @@
 # React App with Custom Bootstrap Navbar
-Required node version is `9.2.1`. This project is based on [Node API and Client Boilerplate](https://github.com/rickyhurtado/node-api-and-client-boilerplate).
+Required node version is `9.2.1`. This project is based on
+[Create React App Boilerplate](https://github.com/antwan-services/create-react-app-boilerplate)
+by [Antwan Services](https://github.com/antwan-services).
 
 ## Starting the App
 
